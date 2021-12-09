@@ -32,6 +32,7 @@ a{
 }
 
 #universalnav {
+  z-index:100 !important;
     position:absolute;
     left:36px;
     bottom:18px;

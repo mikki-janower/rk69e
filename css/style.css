@@ -6,6 +6,10 @@
     font-family: "Canela";
     src: url(/font/Canela-Regular.otf);
 }
+@font-face {
+  font-family: "Canela";
+  src: url(/font/Canela-Regular.otf);
+}
 
 body{
 top:0px;
@@ -64,7 +68,7 @@ a{
 }
 
 a{
-    font-family: "GrandCentral Bold";
+    font-family: grand-central, serif;
     text-transform:uppercase;
     letter-spacing:1px;
     font-size:20px;

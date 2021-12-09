@@ -15,7 +15,6 @@ $(document).ready(function(){
         'Boockup/images/menubook-cover.png',
         'Boockup/images/menubook-back.png',
         'Boockup/images/crewbook-cover.png',
-        'Boockup/images/crewbook-back.png'
     ]);
 
 

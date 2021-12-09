@@ -169,6 +169,6 @@ a {
   overflow:visible;
 }
   #invite {
-      transform:rotateZ(30deg) scale(.8);
+      transform:rotateZ(30deg) scale(.7);
   }
 }

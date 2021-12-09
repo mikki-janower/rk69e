@@ -11,11 +11,11 @@ $(document).ready(function(){
     }
     // Usage:
     preload([
-        'Boockup/images/book-cover.png',
-        'Boockup/images/menubook-cover.png',
-        'Boockup/images/menubook-back.png',
-        'Boockup/images/crewbook-cover.png',
-        'Boockup/images/crewbook-back.png'
+        '../images/book-cover.png',
+        '../images/menubook-cover.png',
+        '../images/menubook-back.png',
+        '../images/crewbook-cover.png',
+        '../images/crewbook-back.png'
     ]);
 
 
@@ -43,19 +43,19 @@ $('.container').mouseup(function(){
 so the menu will appear when the 'menu' button is pressed, etc.*/
 $("#header").click(function(){
    /* $("#invite").fadeOut(200, function(){ */
-        $(".book-back").css("background-image", "url('Boockup/images/book-cover.png')");
-        $(".book-front").css("background-image", "url('Boockup/images/book-cover.png')");
+        $(".book-back").css("background-image", "url('../images/book-cover.png')");
+        $(".book-front").css("background-image", "url('../images/book-cover.png')");
    /* }).fadeIn(200); */
 });
 
 $("#menubutton").click(function(){
-        $(".book-back").css("background-image", "url('Boockup/images/menubook-cover.png')");
-        $(".book-front").css("background-image", "url('Boockup/images/menubook-back.png')");
+        $(".book-back").css("background-image", "url('../images/menubook-cover.png')");
+        $(".book-front").css("background-image", "url('../images/menubook-back.png')");
 });
 
 $("#crewbutton").click(function(){
-    $(".book-back").css("background-image", "url('Boockup/images/crewbook-cover.png')");
-    $(".book-front").css("background-image", "url('Boockup/images/crewbook-cover.png')");
+    $(".book-back").css("background-image", "url('../images/crewbook-cover.png')");
+    $(".book-front").css("background-image", "url('../images/crewbook-cover.png')");
 });
 
 /*------------reload gallery on link click----------*/

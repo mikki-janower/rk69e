@@ -11,11 +11,11 @@ $(document).ready(function(){
     }
     // Usage:
     preload([
-        '../1211/Boockup/images/book-cover.png',
-        '../1211/Boockup/images/menubook-cover.png',
-        '../1211/Boockup/images/menubook-back.png',
-        '../1211/Boockup/images/crewbook-cover.png',
-        '../1211/Boockup/images/crewbook-back.png'
+        'Boockup/images/book-cover.png',
+        'Boockup/images/menubook-cover.png',
+        'Boockup/images/menubook-back.png',
+        'Boockup/images/crewbook-cover.png',
+        'Boockup/images/crewbook-back.png'
     ]);
 
 
@@ -43,22 +43,22 @@ $('.container').mouseup(function(){
 so the menu will appear when the 'menu' button is pressed, etc.*/
 $("#header").click(function(){
    /* $("#invite").fadeOut(200, function(){ */
-        $(".book-back").css("background-image", "url('../1211/Boockup/images/book-cover.png')");
-        $(".book-front").css("background-image", "url('../1211/Boockup/images/book-cover.png')");
+        $(".book-back").css("background-image", "url('Boockup/images/book-cover.png')");
+        $(".book-front").css("background-image", "url('Boockup/images/book-cover.png')");
    /* }).fadeIn(200); */
 });
 
 $("#menubutton").click(function(){
-        $(".book-back").css("background-image", "url('../1211/Boockup/images/menubook-cover.png')");
-        $(".book-front").css("background-image", "url('../1211/Boockup/images/menubook-back.png')");
+        $(".book-back").css("background-image", "url('Boockup/images/menubook-cover.png')");
+        $(".book-front").css("background-image", "url('Boockup/images/menubook-back.png')");
 });
 
 $("#crewbutton").click(function(){
-    $(".book-back").css("background-image", "url('../1211/Boockup/images/crewbook-cover.png')");
-    $(".book-front").css("background-image", "url('../1211/Boockup/images/crewbook-cover.png')");
+    $(".book-back").css("background-image", "url('Boockup/images/crewbook-cover.png')");
+    $(".book-front").css("background-image", "url('Boockup/images/crewbook-cover.png')");
 });
 
 /*------------reload gallery on link click----------*/
 $("#backbutton").click(function(){
-    location.href = "/Users/michelajanower/Desktop/1211/index.html";
+    location.href = "index.html";
 })

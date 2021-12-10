@@ -64,7 +64,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-image: url('../images/backdrop.jpeg');
+  background-image: url('images/backdrop.jpeg');
   background-size:cover;
 }
 a {
@@ -122,28 +122,28 @@ a {
   background-position: top left;
 }
 .book-front {
-  background-image: url('../images/book-cover.png');
+  background-image: url('images/book-cover.png');
   width: 670px;
   height: 536px;
   -webkit-transform: translate3d(-335px ,-268px ,0.67px) translate3d(0,0,0) rotateY(0deg);
   transform: translate3d(-335px ,-268px ,0.67px) translate3d(0,0,0) rotateY(0deg);
 }
 .book-side-left {
-  background-image: url('../images/book-spine.jpg');
+  background-image: url('images/book-spine.jpg');
   width: 1.34px;
   height: 536px;
   -webkit-transform: translate3d(-335px ,-268px ,0.67px) translate3d(-0.67px, 0, -0.67px) rotateY(-90deg);
   transform: translate3d(-335px ,-268px ,0.67px) translate3d(-0.67px, 0, -0.67px) rotateY(-90deg);
 }
 .book-side-right {
-  background-image: url('../images/book-side.jpg');
+  background-image: url('images/book-side.jpg');
   width: 1.34px;
   height: 536px;
   -webkit-transform: translate3d(-335px ,-268px ,0.67px) translate3d(669.33px, 0px,-0.67px) rotateY(90deg);
   transform: translate3d(-335px ,-268px ,0.67px) translate3d(669.33px, 0px,-0.67px) rotateY(90deg);
 }
 .book-top {
-  background-image: url('../images/book-top.jpg');
+  background-image: url('images/book-top.jpg');
   background-position: bottom right;
   width: 670px;
   height: 1.34px;
@@ -151,14 +151,14 @@ a {
   transform: translate3d(-335px, -268px ,0.67px) translate3d(0px, -0.67px, -0.67px) rotateX(90deg);
 }
 .book-bottom {
-  background-image: url('../images/book-top.jpg');
+  background-image: url('images/book-top.jpg');
   width: 670px;
   height: 1.34px;
   -webkit-transform: translate3d(-335px ,-268px ,0.67px) translate3d(0px, 535.33px, -0.67px) rotateX(-90deg);
   transform: translate3d(-335px ,-268px ,0.67px) translate3d(0px, 535.33px, -0.67px) rotateX(-90deg);
 }
 .book-back {
-  background-image: url('../images/book-cover.png');
+  background-image: url('images/book-cover.png');
   width: 670px;
   height: 536px;
   -webkit-transform: translate3d(-335px ,-268px ,0.67px) translate3d(0,0, -1.34px) rotateY(180deg);
